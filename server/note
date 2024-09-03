@@ -1,0 +1,16 @@
+module.exports = {
+    apps: [{
+        name: "app1",
+        script: "./app.js",
+
+        env: {
+            URI_MONGODB: "mongodb+srv://lilianeernestin:mongodb-liliane@cluster0.wv3rb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+
+            SECRET_KEY_JWT: "SECRET_KEY_TOKEN_JWT",
+            PASSWORD_REDIS: "PIGxZbZfNFYNYjt0MoSNIbJ5Zo60uP4r",
+
+            PORT: 80,
+            NODE_ENV: "production"
+        }
+    }]
+}
